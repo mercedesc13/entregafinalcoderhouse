@@ -4,7 +4,38 @@
     font-family:'Amsi Pro Narw Ultra';
 }
 
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+/* /Dispositivo XS/ */
+@media (min-width: 0px) and (max-width:350px) {
+    
+}
+
+/* /Dispositivo SMALL/ */
+@media (min-width: 351px) and (max-width:516px) {
+    
+    }
+
+/* /Dispositivo MEDIUM/ */
+@media (min-width: 351px) and (max-width:516px) {
+   
+    }
+    
+/* /Dispositivo LARGE/ */
+@media (min-width: 517px) and (max-width:980px) {
+    
+    }
+    
+/* /Dispositivo Extra large/   */
+@media (min-width: 981px) and (max-width:10000px) {
+    
+    }
 
 
 
@@ -466,7 +497,7 @@ label{
     color: #4b6252;
 }
 
-@media (max-width:800px){
+@media (mas-width:800px){
     .menu{
         flex-direction: column;
     }
